@@ -10,7 +10,8 @@ import {Switch, Route, Redirect} from "react-router-dom";
 
 const App = () =>{
   return(
-  <>
+  <> 
+  {/* we can use Routes insted of switch in latest version of react-router-dom  */}
   <Navbar />
   <Switch>
     <Route exact path="/" component = {Home} />
