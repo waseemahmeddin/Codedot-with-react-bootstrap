@@ -1,9 +1,17 @@
 import React from "react";
-const Home = () =>{
-  return(
-  <>
-  <h1>Welcome home</h1>
-  </>
+import web from "../src/images/img-1.jpg"
+import Common from "./Common";
+const Home = () => {
+  return (
+    <>
+   { <Common 
+      name=" Welcome to " 
+      imgsrc={web} 
+      visit='/services'
+      btname='Get Started' 
+      /> }
+
+    </>
   );
 };
 
